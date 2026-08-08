@@ -1,16 +1,91 @@
-# React + Vite
+# 📝 Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Blog Application built with **React.js** and **Appwrite**.  
+Users can create, read, update, and delete blog posts with authentication and image upload functionality.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 [Visit Blog App](YOUR_LIVE_DEMO_LINK)
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+_Add your project screenshots here._
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 User Authentication
+  - User Registration
+  - User Login
+  - User Logout
+
+- 📝 Blog Posts
+  - Create new posts
+  - Read blog posts
+  - Edit posts
+  - Delete posts
+  - View individual posts
+
+- 🖼️ Image Upload
+  - Upload featured images
+  - Store images using Appwrite Storage
+
+- 👤 User-based Posts
+  - Users can manage their own posts
+
+- 📱 Responsive Design
+  - Mobile-friendly
+  - Tablet-friendly
+  - Desktop-friendly
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- Tailwind CSS
+- React Router
+- React Hook Form
+
+### Backend
+
+- Appwrite Authentication
+- Appwrite Database
+- Appwrite Storage
+
+### Tools
+
+- Vite
+- Git
+- GitHub
+- VS Code
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── appwrite/
+│   ├── Auth.js
+│   ├── Config.js
+│   └── Database.js
+│
+├── components/
+│   ├── Header/
+│   ├── Footer/
+│   └── ...
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── AddPost.jsx
+│   ├── EditPost.jsx
+│   └── ...
+│
+├── store/
+│   └── ...
+│
+├── App.jsx
+├── main.jsx
+└── index.css
