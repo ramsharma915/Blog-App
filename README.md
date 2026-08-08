@@ -5,11 +5,7 @@ Users can create, read, update, and delete blog posts with authentication and im
 
 ## 🌐 Live Demo
 
-🔗 [Visit Blog App](YOUR_LIVE_DEMO_LINK)
-
-## 📸 Screenshots
-
-_Add your project screenshots here._
+🔗 [Visit Blog App](https://blog-app-virid-ten.vercel.app/)
 
 ## ✨ Features
 
