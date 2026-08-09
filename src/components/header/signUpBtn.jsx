@@ -72,7 +72,7 @@ function SignUpBtn() {
                             })} />
                         <Button
                             type='submit'
-                            className='w-full'
+                            className='w-full my-5'
                         >sign Up</Button>
                     </div>
                 </form>
